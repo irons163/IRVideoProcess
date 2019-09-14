@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "IRVPVideoCamera.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) IRVPVideoCamera * videoCamera;
 
 @end
 
@@ -16,7 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.videoCamera = [[IRVPVideoCamera alloc] init];
+    [self.videoCamera startRunning];
 }
 
 

@@ -13,6 +13,19 @@
 		B55E02BA232BF54100B42820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55E02B9232BF54100B42820 /* Assets.xcassets */; };
 		B55E02BD232BF54100B42820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55E02BB232BF54100B42820 /* LaunchScreen.storyboard */; };
 		B55E02C0232BF54100B42820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E02BF232BF54100B42820 /* main.m */; };
+		B55E02CD232BFA0700B42820 /* IRVPVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E02CC232BFA0700B42820 /* IRVPVideoCamera.m */; };
+		B55E036D232D2F8400B42820 /* IRVPObjectQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E036C232D2F8400B42820 /* IRVPObjectQueue.m */; };
+		B55E0370232D32E200B42820 /* IRVPContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E036F232D32E200B42820 /* IRVPContext.m */; };
+		B55E0374232D333100B42820 /* IRVPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E0373232D333100B42820 /* IRVPFrame.m */; };
+		B55E0377232D334700B42820 /* IRVPFramePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E0376232D334700B42820 /* IRVPFramePool.m */; };
+		B55E037A232D335800B42820 /* IRVPFrameUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E0379232D335800B42820 /* IRVPFrameUploader.m */; };
+		B55E037F232D348500B42820 /* IRVPGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E037E232D348500B42820 /* IRVPGLProgram.m */; };
+		B55E0382232D355400B42820 /* IRVPGLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E0381232D355400B42820 /* IRVPGLModel.m */; };
+		B55E0388232D357600B42820 /* IRVPGLPlaneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E0387232D357600B42820 /* IRVPGLPlaneModel.m */; };
+		B55E038B232D358800B42820 /* IRVPGLRGBProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E038A232D358800B42820 /* IRVPGLRGBProgram.m */; };
+		B55E038F232D38E300B42820 /* IRVPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E038E232D38E300B42820 /* IRVPMessage.m */; };
+		B55E0392232D38F800B42820 /* IRVPMessageLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E0391232D38F800B42820 /* IRVPMessageLoop.m */; };
+		B55E0396232D3A0700B42820 /* IRVPFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E0395232D3A0700B42820 /* IRVPFrameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,34 @@
 		B55E02BC232BF54100B42820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B55E02BE232BF54100B42820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55E02BF232BF54100B42820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B55E02CB232BFA0700B42820 /* IRVPVideoCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPVideoCamera.h; sourceTree = "<group>"; };
+		B55E02CC232BFA0700B42820 /* IRVPVideoCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPVideoCamera.m; sourceTree = "<group>"; };
+		B55E0368232D2D8E00B42820 /* IRVPInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPInput.h; sourceTree = "<group>"; };
+		B55E036B232D2F8400B42820 /* IRVPObjectQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPObjectQueue.h; sourceTree = "<group>"; };
+		B55E036C232D2F8400B42820 /* IRVPObjectQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPObjectQueue.m; sourceTree = "<group>"; };
+		B55E036E232D32E200B42820 /* IRVPContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPContext.h; sourceTree = "<group>"; };
+		B55E036F232D32E200B42820 /* IRVPContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPContext.m; sourceTree = "<group>"; };
+		B55E0372232D333100B42820 /* IRVPFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPFrame.h; sourceTree = "<group>"; };
+		B55E0373232D333100B42820 /* IRVPFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPFrame.m; sourceTree = "<group>"; };
+		B55E0375232D334700B42820 /* IRVPFramePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPFramePool.h; sourceTree = "<group>"; };
+		B55E0376232D334700B42820 /* IRVPFramePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPFramePool.m; sourceTree = "<group>"; };
+		B55E0378232D335800B42820 /* IRVPFrameUploader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPFrameUploader.h; sourceTree = "<group>"; };
+		B55E0379232D335800B42820 /* IRVPFrameUploader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPFrameUploader.m; sourceTree = "<group>"; };
+		B55E037C232D343300B42820 /* IRVPGLDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPGLDefines.h; sourceTree = "<group>"; };
+		B55E037D232D348500B42820 /* IRVPGLProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPGLProgram.h; sourceTree = "<group>"; };
+		B55E037E232D348500B42820 /* IRVPGLProgram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPGLProgram.m; sourceTree = "<group>"; };
+		B55E0380232D355400B42820 /* IRVPGLModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPGLModel.h; sourceTree = "<group>"; };
+		B55E0381232D355400B42820 /* IRVPGLModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPGLModel.m; sourceTree = "<group>"; };
+		B55E0386232D357600B42820 /* IRVPGLPlaneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPGLPlaneModel.h; sourceTree = "<group>"; };
+		B55E0387232D357600B42820 /* IRVPGLPlaneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPGLPlaneModel.m; sourceTree = "<group>"; };
+		B55E0389232D358800B42820 /* IRVPGLRGBProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPGLRGBProgram.h; sourceTree = "<group>"; };
+		B55E038A232D358800B42820 /* IRVPGLRGBProgram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPGLRGBProgram.m; sourceTree = "<group>"; };
+		B55E038D232D38E300B42820 /* IRVPMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPMessage.h; sourceTree = "<group>"; };
+		B55E038E232D38E300B42820 /* IRVPMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPMessage.m; sourceTree = "<group>"; };
+		B55E0390232D38F800B42820 /* IRVPMessageLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPMessageLoop.h; sourceTree = "<group>"; };
+		B55E0391232D38F800B42820 /* IRVPMessageLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPMessageLoop.m; sourceTree = "<group>"; };
+		B55E0394232D3A0700B42820 /* IRVPFrameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVPFrameView.h; sourceTree = "<group>"; };
+		B55E0395232D3A0700B42820 /* IRVPFrameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVPFrameView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,7 @@
 		B55E02AF232BF54000B42820 /* IRVideoProcess */ = {
 			isa = PBXGroup;
 			children = (
+				B55E02C6232BF8AB00B42820 /* Class */,
 				B55E02B0232BF54000B42820 /* AppDelegate.h */,
 				B55E02B1232BF54000B42820 /* AppDelegate.m */,
 				B55E02B3232BF54000B42820 /* ViewController.h */,
@@ -69,6 +111,89 @@
 				B55E02BF232BF54100B42820 /* main.m */,
 			);
 			path = IRVideoProcess;
+			sourceTree = "<group>";
+		};
+		B55E02C6232BF8AB00B42820 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B55E0393232D39E600B42820 /* Consumer */,
+				B55E038C232D38B700B42820 /* Message */,
+				B55E037B232D341800B42820 /* OpenGL */,
+				B55E0371232D331E00B42820 /* Frame */,
+				B55E0367232D2D6A00B42820 /* Common */,
+				B55E02C7232BF8B300B42820 /* Source */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B55E02C7232BF8B300B42820 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B55E02CB232BFA0700B42820 /* IRVPVideoCamera.h */,
+				B55E02CC232BFA0700B42820 /* IRVPVideoCamera.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B55E0367232D2D6A00B42820 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B55E0368232D2D8E00B42820 /* IRVPInput.h */,
+				B55E036B232D2F8400B42820 /* IRVPObjectQueue.h */,
+				B55E036C232D2F8400B42820 /* IRVPObjectQueue.m */,
+				B55E036E232D32E200B42820 /* IRVPContext.h */,
+				B55E036F232D32E200B42820 /* IRVPContext.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B55E0371232D331E00B42820 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				B55E0372232D333100B42820 /* IRVPFrame.h */,
+				B55E0373232D333100B42820 /* IRVPFrame.m */,
+				B55E0375232D334700B42820 /* IRVPFramePool.h */,
+				B55E0376232D334700B42820 /* IRVPFramePool.m */,
+				B55E0378232D335800B42820 /* IRVPFrameUploader.h */,
+				B55E0379232D335800B42820 /* IRVPFrameUploader.m */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		B55E037B232D341800B42820 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				B55E037C232D343300B42820 /* IRVPGLDefines.h */,
+				B55E037D232D348500B42820 /* IRVPGLProgram.h */,
+				B55E037E232D348500B42820 /* IRVPGLProgram.m */,
+				B55E0380232D355400B42820 /* IRVPGLModel.h */,
+				B55E0381232D355400B42820 /* IRVPGLModel.m */,
+				B55E0386232D357600B42820 /* IRVPGLPlaneModel.h */,
+				B55E0387232D357600B42820 /* IRVPGLPlaneModel.m */,
+				B55E0389232D358800B42820 /* IRVPGLRGBProgram.h */,
+				B55E038A232D358800B42820 /* IRVPGLRGBProgram.m */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		B55E038C232D38B700B42820 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B55E038D232D38E300B42820 /* IRVPMessage.h */,
+				B55E038E232D38E300B42820 /* IRVPMessage.m */,
+				B55E0390232D38F800B42820 /* IRVPMessageLoop.h */,
+				B55E0391232D38F800B42820 /* IRVPMessageLoop.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		B55E0393232D39E600B42820 /* Consumer */ = {
+			isa = PBXGroup;
+			children = (
+				B55E0394232D3A0700B42820 /* IRVPFrameView.h */,
+				B55E0395232D3A0700B42820 /* IRVPFrameView.m */,
+			);
+			path = Consumer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +266,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55E038F232D38E300B42820 /* IRVPMessage.m in Sources */,
+				B55E0396232D3A0700B42820 /* IRVPFrameView.m in Sources */,
+				B55E0382232D355400B42820 /* IRVPGLModel.m in Sources */,
 				B55E02B5232BF54000B42820 /* ViewController.m in Sources */,
+				B55E0374232D333100B42820 /* IRVPFrame.m in Sources */,
+				B55E02CD232BFA0700B42820 /* IRVPVideoCamera.m in Sources */,
+				B55E037A232D335800B42820 /* IRVPFrameUploader.m in Sources */,
+				B55E0370232D32E200B42820 /* IRVPContext.m in Sources */,
+				B55E036D232D2F8400B42820 /* IRVPObjectQueue.m in Sources */,
+				B55E037F232D348500B42820 /* IRVPGLProgram.m in Sources */,
 				B55E02C0232BF54100B42820 /* main.m in Sources */,
+				B55E038B232D358800B42820 /* IRVPGLRGBProgram.m in Sources */,
+				B55E0392232D38F800B42820 /* IRVPMessageLoop.m in Sources */,
+				B55E0388232D357600B42820 /* IRVPGLPlaneModel.m in Sources */,
 				B55E02B2232BF54000B42820 /* AppDelegate.m in Sources */,
+				B55E0377232D334700B42820 /* IRVPFramePool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
