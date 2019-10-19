@@ -7,10 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "IRVPOutput.h"
+#import "IRVPContext.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IRVPVideoCamera : NSObject
+@interface IRVPVideoCamera : NSObject <IRVPOutput>
+
+- (instancetype)initWithContext:(IRVPContext *)context;
+
+@property (nonatomic, strong, readonly) IRVPContext * context;
 
 - (void)startRunning;
 
